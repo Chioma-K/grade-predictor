@@ -1,6 +1,7 @@
 
 from unittest.mock import patch
-from main import main, calculate_final_grade
+from main import main
+from grades import calculate_final_grade
 
 
 def test_calculate_final_grade():
